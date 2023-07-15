@@ -10,8 +10,8 @@ export default function Navbar() {
         <div className=' p-3 '>
             <ul className=' lg:flex items-center gap-[4vw] sm:hidden'>
                 <li className=' cursor-pointer hover:text-gray-400 hidden lg:block'><a href="/">Home</a></li>
-                <li className=' cursor-pointer hover:text-gray-400 hidden lg:block'><a href="/">About</a></li>
-                <li className=' cursor-pointer hover:text-gray-400 hidden lg:block'><a href="/">Gym</a></li>
+                <li className=' cursor-pointer hover:text-gray-400 hidden lg:block'><a href="/#about">About</a></li>
+                <li className=' cursor-pointer hover:text-gray-400 hidden lg:block'><a href="/#gym">Gym</a></li>
                 <li className=' cursor-pointer hover:text-gray-400 hidden lg:block'><a href="/">Blog</a></li>
                 <li className=' cursor-pointer hover:text-gray-400 hidden lg:block'><a href="/">Contact</a></li>
             </ul>

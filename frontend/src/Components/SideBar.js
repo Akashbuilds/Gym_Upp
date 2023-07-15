@@ -9,8 +9,8 @@ export default function SideBar() {
     const [cross,Setcross] = useState(false)
   return (
     <>   
-    { !cross && ( <div className='bg-[#950101] font-[Poppins] text-white text-xl font-bold fixed  left-0 w-16 h-72
-    block lg:hidden rounded-full m-3'>
+    { !cross && ( <div className='bg-[#df2929] font-[Poppins] text-white text-xl font-bold fixed  left-0 w-16 h-72
+    block lg:hidden rounded-full m-3 '>
         <RxCross1 className=' absolute right-3 top-3 cursor-pointer' onClick={(e)=>{Setcross(true)}}/>
         <div className=' absolute top-14 left-5 flex flex-col gap-5'>
             <AiOutlineHome className=' cursor-pointer'/>
@@ -25,7 +25,7 @@ export default function SideBar() {
         <p className=' absolute right-3 top-3' onClick={(e)=>{Setcross(true)}}>X</p>
     </div>    */}
     { cross && (
-        <div className='bg-[#950101] font-[Poppins] text-white text-xl font-bold fixed  left-0 w-8 h-16
+        <div className='bg-[#df2929] font-[Poppins] text-white text-xl font-bold fixed  left-0 w-8 h-16
         block lg:hidden rounded-full m-3'>
             <TbLayoutNavbarExpand className=' absolute top-5 left-[0.35rem] cursor-pointer ' onClick={(e)=>{Setcross(false)}}/>
         </div> )
